@@ -1,0 +1,104 @@
+
+body{
+    width: 100vw;
+    height: 50vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-family:  "Playwrite AU VIC", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.bttcinza{
+    font-size: 13px;
+    text-decoration: none;
+    background: #f8f9fa;
+    color: #4b4e51;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.link,.linkbtt{
+    text-decoration: none;
+    padding-left: 10px ;
+    font-weight: 400;
+    font-size: 14px;
+  
+}
+
+.link{
+    color: #5b5a5b;
+}
+
+.linkbtt{
+    background: #1a73e8;
+    padding: 8px 15px 8px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px
+}
+
+.linkbtt:hover{
+    background-color: #1A73E8e8;
+
+}
+
+
+.material-symbols-outlined{
+    font-size:20px ;
+    padding: 8px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+
+.material-symbols-outlined:hover{
+    background: #6b7682;
+}
+
+
+.pesquisa{
+    height: 40px;
+    min-width: 50vw;
+    max-width: 75vw;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+    box-shadow:  2px 2px 2px 1px rgb(0,0 , 0);
+    margin: 10px;
+}
+
+
+.main{
+    
+    display: flex;
+    flex-grow: 1 ;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    color: #6b7682;
+    background: #f2f2f2;
+    height: 60px;
+    border-bottom: 1px solid #dddfe3;
+    font-size: 16px;
+    padding-left: 18px;
+    display: flex;
+    align-items: center;
+
+}
